@@ -2,6 +2,8 @@ streamlit
 matplotlib
 pandas
 PyMuPDF
+transformers
+torch
 langchain
 langgraph
 tavily-python
