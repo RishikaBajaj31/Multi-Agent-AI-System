@@ -6,9 +6,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 # ---------------------------
 # Import Agents & Orchestrator
 # ---------------------------
-from backend.agents.data_agent import DataAgent
-from backend.agents.research_agent import ResearchAgent
-from backend.agents.orchestrator import Orchestrator
+from data_agent import DataAgent
+from research_agent import ResearchAgent
+from orchestrator import Orchestrator
 
 # ---------------------------
 # Streamlit UI
