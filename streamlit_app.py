@@ -1,6 +1,7 @@
 # streamlit_app.py
-import os
+import sys, os
 import streamlit as st
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # ---------------------------
 # Import Agents & Orchestrator
