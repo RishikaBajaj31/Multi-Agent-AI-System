@@ -1,20 +1,15 @@
-Multi-Agent AI System
+**Multi-Agent AI System**
 
 A Streamlit-based multi-agent AI system capable of handling data queries from CSV/Excel files and research queries from PDFs. This project demonstrates an orchestrated AI agent setup where different agents specialize in different tasks, integrated via a central orchestrator.
 
-Features
+**Features**
 
-Data Agent: Processes uploaded CSV/Excel files and answers queries like:
+**Data Agent**: Processes uploaded CSV/Excel files and answers queries like:
 
-Show column names
+Analyses and shows summary of columns in the dataset.
+Query = Analyze
 
-First 5 rows of data
-
-Summary statistics
-
-Visualizations for numeric columns
-
-Research Agent: Processes uploaded PDFs and extracts meaningful information:
+**Research Agent**: Processes uploaded PDFs and extracts meaningful information:
 
 Summarize research papers
 
@@ -22,19 +17,16 @@ Extract keywords or topics
 
 Answer PDF-related queries
 
-Orchestrator: Routes user queries to the appropriate agent (Data Agent or Research Agent).
+**Orchestrator**: Routes user queries to the appropriate agent (Data Agent or Research Agent).
 
 Streamlit Interface: Simple web interface to upload files, type queries, and get responses in real-time.
 
-Sample Files Button: Quickly test the system with preloaded CSV and PDF.
-
-Installation
+**Installation**
 
 Clone the repository:
 
 git clone https://github.com/yourusername/multi-agent-ai.git
 cd multi-agent-ai
-
 
 Install dependencies:
 
@@ -51,7 +43,7 @@ streamlit
 
 PyMuPDF (fitz)
 
-Usage
+**Usage**
 
 Run the Streamlit app:
 
@@ -62,11 +54,10 @@ Upload your CSV/Excel file and/or PDF file using the interface.
 
 Type your query in the text box and press Run Agents.
 
-Example queries for CSV: "Show columns", "First 5 rows", "Summary"
+Example queries for CSV: "Analyze"
 
 Example queries for PDF: "Summarize research", "Extract keywords"
 
-Optionally, click Test with Sample Files to run a preloaded query on sample CSV and PDF files.
 
 Project Structure
 ai-agent-system/
@@ -90,7 +81,7 @@ orchestrator.py: Routes queries to the correct agent.
 
 main.py: Contains FastAPI endpoints and helper functions for agents.
 
-app.py: Streamlit front-end for interacting with the agents.
+streamlit_app.py: Streamlit front-end for interacting with the agents.
 
 Notes
 
