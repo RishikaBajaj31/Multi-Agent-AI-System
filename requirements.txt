@@ -1,5 +1,5 @@
 streamlit
-pandas
-matplotlib
-PyMuPDF
-openpyxl
+langchain
+langgraph
+tavily-python
+requests
