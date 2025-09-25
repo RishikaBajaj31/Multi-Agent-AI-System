@@ -60,10 +60,4 @@ if st.button("Run Agents"):
     else:
         st.warning("Please enter a query first!")
 
-# Test with sample files button
-if st.button("Test with Sample Files"):
-    sample_query = "Summarize the dataset and research"
-    response = orchestrator.route(sample_query)
-    st.success("Response (sample files):")
-    st.write(response)
 
